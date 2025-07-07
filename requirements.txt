@@ -1,0 +1,7 @@
+tqdm
+colorama
+pytesseract
+pillow
+PyMuPDF
+faiss-cpu
+ollama

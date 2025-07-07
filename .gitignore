@@ -1,0 +1,44 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Ollama model downloads (optional, if stored here)
+ollama_models/
+
+# VSCode settings (optional)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# FAISS vector DB files
+*.index
+*.faiss
+
+# Pickle or temporary DB files
+*.pkl
+
+# Extracted files or temp data
+*.pdf~
+*.txt~
+*.bak
+
+# Chat history or debug logs
+chat_history.txt
+debug.log
+
+# Image captions or cached images (if applicable)
+image_cache/
+
+# Ignore files folder if empty
+files/
+!files/.gitkeep
