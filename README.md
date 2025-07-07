@@ -16,6 +16,10 @@ RAG BOT is a simple, terminal-based Retrieval-Augmented Generation (RAG) chatbot
 
 ---
 
+## 📸 Screenshot
+
+![RAG Bot Terminal Screenshot](images/Screenshot.png)
+
 ## 🗂️ Folder Structure
 
 simpleRAG/
