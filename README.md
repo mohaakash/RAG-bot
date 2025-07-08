@@ -32,10 +32,6 @@ simpleRAG/
 ├── files/ # Place your PDFs, TXT files, images here
 └── vector.index # Auto-generated FAISS index after processing
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚒️ Requirements
@@ -55,14 +51,14 @@ git clone <your_repo_link>
 cd simpleRAG
 Create Virtual Environment (Optional but Recommended)
 
-bash
+```bash
 Copy
 Edit
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 Install Requirements
 
-bash
+```bash
 Copy
 Edit
 pip install -r requirements.txt
@@ -79,7 +75,7 @@ Place your files (PDFs, TXT, Images) inside the files/ folder or load files inte
 
 Run the chatbot:
 
-bash
+```bash
 Copy
 Edit
 python main.py
@@ -88,18 +84,13 @@ Follow the prompts to load your files and start chatting!
 Type exit to quit the chatbot.
 
 💡 Example
-less
-Copy
-Edit
+
 File Loading Menu:
 1. Load all files from folder
 2. Load a specific file
 3. Exit
 After building the database, chat:
 
-vbnet
-Copy
-Edit
 You: what is RAG?
 
 AI Bot: RAG stands for Retrieval-Augmented Generation. It combines retrieval of relevant information with generative AI...
